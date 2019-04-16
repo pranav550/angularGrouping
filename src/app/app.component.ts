@@ -7,4 +7,37 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularGrouping';
+
+  countryDetails:any=[
+    {
+      'country':'India',
+      'people':[
+        {
+          'name':'aaaa'
+        },
+        {
+          'name':'bbbbbb'
+        },
+        {
+          'name':'ccccccc'
+        }
+      ]
+    },
+
+    {
+      'country':'Uk',
+      'people':[
+        {
+          'name':'ABC'
+        },
+        {
+          'name':'PQR'
+        },
+        {
+          'name':'XYZ'
+        }
+      ]
+    },
+    
+  ]
 }
